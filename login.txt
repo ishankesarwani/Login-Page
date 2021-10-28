@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h2><center>Login Page<center><h2>
+<style type="text/css">
+#login{
+   background-color:    #555555; 
+  border: none;
+  color: white;
+  padding-top:100px;
+  marging-top:100px;
+  padding: 15px 32px;
+  
+  font-size: 16px;
+  
+}
+input{
+ width: 300px;
+height: 40px;
+font-sixe:18pt;
+}
+p{
+   marging-top:100px;
+   /*border-style: solid; */
+}
+
+</style>
+</head>
+<body>
+<form>
+<p>
+<br>
+Enter username : <input type="text" id="username" placeholder="Enter User Name" maxlength = 50 minlength=5>
+<br><br>
+Enter password : <input type="password" id="pwd" placeholder="Enter Password" maxlength=10 minlength=6>
+<br><br>
+<p>
+<button type="submit" id="login" name="login" >Click to Login </button>
+</form>
+</body>
+</html>
